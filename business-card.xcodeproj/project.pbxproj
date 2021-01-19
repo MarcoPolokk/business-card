@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F9F386B25B641AE00F9FE84 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F9F386A25B641AE00F9FE84 /* Pacifico-Regular.ttf */; };
+		5F9F386E25B64D7400F9FE84 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9F386D25B64D7400F9FE84 /* InfoView.swift */; };
 		5FCE933E25B4ECF700A0506E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCE933D25B4ECF700A0506E /* AppDelegate.swift */; };
 		5FCE934025B4ECF700A0506E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCE933F25B4ECF700A0506E /* SceneDelegate.swift */; };
 		5FCE934225B4ECF700A0506E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCE934125B4ECF700A0506E /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F9F386A25B641AE00F9FE84 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		5F9F386D25B64D7400F9FE84 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		5FCE933A25B4ECF700A0506E /* business-card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "business-card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FCE933D25B4ECF700A0506E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FCE933F25B4ECF700A0506E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F9F386825B6416E00F9FE84 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5F9F386A25B641AE00F9FE84 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		5FCE933125B4ECF700A0506E = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +68,11 @@
 		5FCE933C25B4ECF700A0506E /* business-card */ = {
 			isa = PBXGroup;
 			children = (
+				5F9F386825B6416E00F9FE84 /* Fonts */,
 				5FCE933D25B4ECF700A0506E /* AppDelegate.swift */,
 				5FCE933F25B4ECF700A0506E /* SceneDelegate.swift */,
 				5FCE934125B4ECF700A0506E /* ContentView.swift */,
+				5F9F386D25B64D7400F9FE84 /* InfoView.swift */,
 				5FCE934325B4ECFA00A0506E /* Assets.xcassets */,
 				5FCE934825B4ECFA00A0506E /* LaunchScreen.storyboard */,
 				5FCE934B25B4ECFA00A0506E /* Info.plist */,
@@ -133,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FCE934A25B4ECFA00A0506E /* LaunchScreen.storyboard in Resources */,
+				5F9F386B25B641AE00F9FE84 /* Pacifico-Regular.ttf in Resources */,
 				5FCE934725B4ECFA00A0506E /* Preview Assets.xcassets in Resources */,
 				5FCE934425B4ECFA00A0506E /* Assets.xcassets in Resources */,
 			);
@@ -145,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F9F386E25B64D7400F9FE84 /* InfoView.swift in Sources */,
 				5FCE933E25B4ECF700A0506E /* AppDelegate.swift in Sources */,
 				5FCE934025B4ECF700A0506E /* SceneDelegate.swift in Sources */,
 				5FCE934225B4ECF700A0506E /* ContentView.swift in Sources */,
