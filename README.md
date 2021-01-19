@@ -5,5 +5,5 @@ A business card made with SwiftUI framework<br/>
 -SwiftUI<br/>
 -Git<br/>
 
-**Screenshots:**<br/>
-<img src="Screenshots/card.PNG" width="250" height="500"/> <br/>
+**Screenshot:**<br/>
+<img src="Screenshots/card.PNG" width="230" height="500"/> <br/>
